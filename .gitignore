@@ -1,0 +1,35 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset (link to it in the README instead)
+data/
+EuroSAT/
+EuroSAT_RGB/
+*.zip
+
+# Large model files (remove a line if you want to upload that file)
+*.pth
+*.pt
+*.h5
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+
+eurosat_labels.csv
